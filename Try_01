@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>HIERLOOM</title>
+<link rel="shortcut icon" href="F:\Projects\HEIRLOOM\LOGO\Hierloom_Logo.png" type="image/x-icon">
+
+<style>
+
+body {
+  display: block;
+}
+.feature-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+}
+.featurepage_column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.featurepage_column2 {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+	height: 100%;
+}
+.featurepage_content {
+    margin: 96px 48px 48px 48px;
+    width: 500px;
+}
+</style>
+
+</head>
+
+<body>
+	
+	<div class="feature-page">
+	
+		<div class="featurepage_column1">
+		
+			<div class="featurepage_content">
+			  <form action="/action_page.php">
+				<div class="form-group">
+				  <label for="email">Email:</label>
+				  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" style="width:100%">
+				</div>
+				<div class="form-group">
+				  <label for="pwd">Password:</label>
+				  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" style="width:100%">
+				</div>
+				<div class="checkbox">
+				  <label><input type="checkbox" name="remember"> Remember me</label>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			  </form>
+		  </div>
+		</div>
+
+		<div class="featurepage_column2">
+			<img src="F:\Projects\HEIRLOOM\LOGO\Hierloom_Logo2.png">
+		</div>
+
+	</div>
+</body>
