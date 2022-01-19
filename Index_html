@@ -15,17 +15,9 @@
    <div class="cover">
 	   <div class="front">
 	      <img src="F:\Projects\Hierloom\LOGO\Hierloom_Logo2.png" alt="">
-		  <div class="text">
-		     <span class="text-1">Every new friend is <br> an adventure</span>
-			 <span class="text-2">Let's get connected</span>
-		  </div>
 	   </div>
 	   <div class="back">
-	      <img class="backImg" src="F:\Projects\Hierloom\LOGO\Hierloom_Logo1.png" alt="">
-		  <div class="text">
-		     <span class="text-1">Every new friend is <br> an adventure</span>
-			 <span class="text-2">Let's get connected</span>
-		  </div>
+	      <div class="backImg"><img src="F:\Projects\Hierloom\LOGO\Hierloom_Logo1.png" alt=""></div>
 	   </div>
    </div>
       <form action="#">
