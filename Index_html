@@ -14,10 +14,7 @@
    <input type="checkbox" id="flip">
    <div class="cover">
 	   <div class="front">
-	      <img src="F:\Projects\Hierloom\LOGO\Hierloom_Logo2.png" alt="">
-	   </div>
-	   <div class="back">
-	      <div class="backImg"><img src="F:\Projects\Hierloom\LOGO\Hierloom_Logo1.png" alt=""></div>
+	      <img src="F:\Projects\Hierloom\LOGO\Logo1.png" alt="">
 	   </div>
    </div>
       <form action="#">
@@ -30,12 +27,11 @@
 					  <input type="text" placeholder="Username" required>
 				   </div>
 				   <div class="input-box">
-					  <i class="fas fa-envelope"></i>
+					  <i class="fas fa-lock"></i>
 					  <input type="password" placeholder="Password" required>
 				   </div>
 				   <div class="text"><a href="#">Forgot Password?</a></div>
 				   <div class="button input-box">
-					  <i class="fas fa-envelope"></i>
 					  <input type="submit" value="submit">
 				   </div>
 				   <div class="text sign-up-text">Don't have an account? <label for="flip">Signup here</label></div>
@@ -53,11 +49,10 @@
 					  <input type="text" placeholder="Username" required>
 				   </div>
 				   <div class="input-box">
-					  <i class="fas fa-envelope"></i>
+					  <i class="fas fa-lock"></i>
 					  <input type="password" placeholder="Password" required>
 				   </div>
 				   <div class="button input-box">
-					  <i class="fas fa-envelope"></i>
 					  <input type="submit" value="submit">
 				   </div>
 				   <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
